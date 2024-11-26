@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfólio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="()">
+</head>
+<img src="FOTO/Imagem do WhatsApp de 2024-11-26 à(s) 16.00.34_24b24f2a.jpg" alt="boy" class="w3-image" width="150" height="190">
+  </header>
+<body style="color: aqua;">
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#sobre-mim">Sobre Mim</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#contatos">Contatos</a></li>
+            </ul>
+        </nav>
+    </header>
+    <style>
+        body {
+            background-color: rgb(8, 0, 0);
+            background-image: url(FOTO/Imagem\ do\ WhatsApp\ de\ 2024-11-26\ à\(s\)\ 16.00.35_09920077.jpg);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: 100%;
+        }
+    </style>
+    <section id="sobre-mim">
+        <h1>Gabriel Paz</h1>
+        <p>Minha profissão é <strong>Analista de Sistemas</strong>. Tenho experiência em desenvolvimento de aplicações web utilizando tecnologias como HTML, CSS, JavaScript e frameworks como React e Angular. Tambem tenho experiencia com os motores graficos Source, Unreal Engine 3, 4 e 5, Unity e GameMaker.</p>
+    </section>
+    <section id="habilidades">
+        <h2>Habilidades</h2>
+        <button class="botao-habilidades">Ver Habilidades</button>
+        <div class="habilidades-escondidas">
+            <ul>
+                <li><i class="fas fa-code"></i> Desenvolvimento de aplicações web</li>
+                <li><i class="fas fa-mobile-alt"></i> Desenvolvimento de aplicações móveis</li>
+                <li><i class="fas fa-gamepad"></i> Desenvolvimento de jogos</li>
+                <li><i class="fas fa-robot"></i> Desenvolvimento de inteligência artificial</li>
+            </ul>
+        </div>
+    </section>
+    <section id="contatos">
+        <h2>Contatos</h2>
+        <button class="botao-contatos">Ver Contatos</button>
+        <div class="contatos-escondidos">
+            <ul>
+                <li><i class="fas fa-envelope"></i> Email: <a href="PortfolioADS@Gmail.com">PortfolioADS@Gmail.com</a></li>
+                <li><i class="fas fa-phone"></i> Telefone: <a href="tel:s081911111111">081911111111</a></li>
+                <li><i class="fab fa-linkedin"></i> LinkedIn: <a href="(link unavailable)">ADSlinkedin</a></li>
+            </ul>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2024 GabrielPaz. Analista de Sistemas.</p>
+    </footer>
+
+    <script>
+        const botaoHabilidades = document.querySelector('.botao-habilidades');
+        const habilidadesEscondidas = document.querySelector('.habilidades-escondidas');
+
+        botaoHabilidades.addEventListener('click', () => {
+            habilidadesEscondidas.classList.toggle('mostrar');
+        });
+
+        const botaoContatos = document.querySelector('.botao-contatos');
+        const contatosEscondidos = document.querySelector('.contatos-escondidos');
+
+        botaoContatos.addEventListener('click', () => {
+            contatosEscondidos.classList.toggle('mostrar');
+        });
+    </script>
+</body>
+</html>
